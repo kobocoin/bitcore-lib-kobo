@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+    <title>bitcore-lib-dash</title>
+</head>
+<body>
+<script src="bitcore-lib-dash.js"></script>
+<script>
+    // check the lib reference after gulp browserify build
+    var dash = require('bitcore-lib-dash');
+    console.log(dash.PrivateKey().toAddress().toString());
+</script>
+</body>
+</html>
